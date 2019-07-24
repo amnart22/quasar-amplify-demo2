@@ -1,0 +1,10 @@
+{
+    "AppSyncApiName": "QuasarAmplifyDemo1API",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authquasaramplifydemo163a76e01",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
